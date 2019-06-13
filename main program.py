@@ -23,7 +23,7 @@ class Project:
         if a == 0:
             return []
         if a == 1:
-            return list(phone_num[digits])      #拨号盘上0和1 是两种特殊情况，故单独做判断处理。
+            return list(phone_num[digits])      
 
         result = []                             #定义一个列表存储结果。
         result_next = Project.digit_to_letterCombinations(digits[1:])
